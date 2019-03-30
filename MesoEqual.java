@@ -17,7 +17,7 @@ public class MesoEqual
 		String strg;
 		br.readLine();
 		br.readLine();
-		br.readLine();
+		br.readLine();// skip three lines
 		strg=br.readLine();
 	}
 }
