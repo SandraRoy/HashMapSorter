@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class MesoEqual
 {
 	String StID;
@@ -5,4 +7,5 @@ public class MesoEqual
 	{
 		StID=id;
 	}
+	protected ArrayList<String> Words=new ArrayList<String>();	
 }
