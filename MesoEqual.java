@@ -14,5 +14,10 @@ public class MesoEqual
 	public void read(String fileName)throws IOException
 	{
 		BufferedReader br=new BufferedReader(new FileReader("Mesonet.txt"));
+		String strg;
+		br.readLine();
+		br.readLine();
+		br.readLine();
+		strg=br.readLine();
 	}
 }
