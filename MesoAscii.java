@@ -5,6 +5,7 @@ public class MesoAscii extends MesoAsciiAbstract
 	{
 		StID=	id;
 	}
+	MesoAscii obj=new MesoAscii(StID);
 	public int calAverage()
 	{
 		double sum=0, average=0;

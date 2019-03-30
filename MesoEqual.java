@@ -10,6 +10,7 @@ public class MesoEqual
 	{
 		StID=id;
 	}
+	MesoAscii obj=new MesoAscii(new MesoStation(StID));
 	protected ArrayList<String> Words=new ArrayList<String>();	
 	public void read(String fileName)throws IOException
 	{
@@ -22,7 +23,7 @@ public class MesoEqual
 		while(strg!=null)
 		{
 			Words.add(strg.substring(1,5));// Takes one word at a time and omits spaces
-			strg=br.readLine();
+			strg=br.readLine();// Reads mesonet.txt in
 		}
 	}
 }
