@@ -19,5 +19,6 @@ public class MesoEqual
 		br.readLine();
 		br.readLine();// skip three lines
 		strg=br.readLine();
+		while(strg!=null)
 	}
 }
