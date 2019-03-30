@@ -5,4 +5,5 @@ public class MesoAscii extends MesoAsciiAbstract
 	{
 		StID=	id;
 	}
+	public int calAverage()
 }
