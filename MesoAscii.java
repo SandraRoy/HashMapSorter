@@ -11,6 +11,7 @@ public class MesoAscii extends MesoAsciiAbstract
 		for (int i=0;i<4;i++)
 		{
 			char ch=StID.getStID().charAt(i); 
+			sum=sum+(int)(ch);
 		}
 	}
 }
