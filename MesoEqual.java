@@ -20,5 +20,9 @@ public class MesoEqual
 		br.readLine();// skip three lines
 		strg=br.readLine();
 		while(strg!=null)
+		{
+			Words.add(strg.substring(1,5));// Takes one word at a time and omits spaces
+			strg=br.readLine();
+		}
 	}
 }
