@@ -7,6 +7,6 @@ public class MesoAscii extends MesoAsciiAbstract
 	}
 	public int calAverage()
 	{
-		double sum=0
+		double sum=0, average=0;
 	}
 }
