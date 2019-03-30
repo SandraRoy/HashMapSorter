@@ -13,6 +13,6 @@ public class MesoAscii extends MesoAsciiAbstract
 			char ch=StID.getStID().charAt(i); 
 			sum=sum+(int)(ch);
 		}
-		(Math.round(sum/4.0));
+		(int)(Math.round(sum/4.0));
 	}
 }
