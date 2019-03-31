@@ -30,6 +30,6 @@ public class Main
 		
 		System.out.print("##");
 		System.out.println("Sorted:");
-		//new StationLexicographical(AsciiVal);	  
+		new StationLexicographical(AsciiVal);	  
 	}
 }
