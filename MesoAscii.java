@@ -1,18 +1,23 @@
 public class MesoAscii extends MesoAsciiAbstract 
 {
 	MesoStation StID;
+	String s="";
 	public MesoAscii (MesoStation id)
 	{
-		StID=	id;
+		this.StID=	id;
+		 s=StID.getStID();
 	}
-	MesoAscii obj=new MesoAscii(StID);
+	
 	public int calAverage()
 	{
 		double sum=0, average=0;
+		
 		for (int i=0;i<4;i++)
 		{
-			char ch=StID.getStID().charAt(i); 
-			sum=sum+(int)(ch);
+			 char ch = s.charAt(i);
+			 double d = (int)ch;
+			 sum += d;
+			 
 		}
 		return (int)(Math.round(sum/4.0));
 		
